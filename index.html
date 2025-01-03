@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = "viewport" content="width=device-width">
+    <meta name = "author" content="Gor Kurakin">
+    <meta charset = "UTF-8">
+    <title>MAbyGor</title>
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MAbyGor</h1>
+        <span><input id="URLInput" type="text" placeholder="Enter your linkie here">
+        <button id="downloadBtn">Download</button></span>
+        <span id="audioSwitch">
+            <label for="theAudioSwitch">Audio only</label>
+            <label class="switch">
+                <input id="theAudioSwitch" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </span>
+        <button id="chooseFolderBtn">Choose destination folder</button>
+        <p id="processingIndicator"></p>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
