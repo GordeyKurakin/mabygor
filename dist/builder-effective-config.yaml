@@ -1,0 +1,16 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.gor.mabygor
+productName: mabygor
+asar: false
+icon: assets/icon.ico
+extraFiles:
+  - from: yt-dlp.exe
+    to: yt-dlp.exe
+mac:
+  category: public.app-category.utilities
+win:
+  target: nsis
+files: []
+electronVersion: 33.2.1

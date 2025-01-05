@@ -5,16 +5,39 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "electron-builder"
+    "pack": "electron-builder .",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "description": "",
+  "description": "A small multimedia aggregator capable of downloading video and audio from a website",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
   "dependencies": {
     "@distube/ytdl-core": "^4.15.8",
     "fluent-ffmpeg": "^2.1.3",
     "ytdl-core": "^4.11.5"
+  },
+  "build": {
+    "appId": "com.gor.mabygor",
+    "productName": "mabygor",
+    "asar": false,
+    "icon": "assets/icon.ico",
+    "extraFiles": [
+      {
+        "from": "yt-dlp.exe",
+        "to": "yt-dlp.exe"
+      }
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 }

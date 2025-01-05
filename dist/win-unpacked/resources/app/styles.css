@@ -1,0 +1,110 @@
+/*declaring custom font*/
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+/*the switch styles*/
+label {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    top: -6px;
+    width: 56px;
+    height: 30px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .2s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .2s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #47a792;
+}
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+body {
+    background: #092e26;
+}
+
+h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: normal;
+    color: white; 
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: normal;
+    color: white; 
+    font-size: 10px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+input{
+    background-color:#176e5b;
+    padding: 8px;
+    border: 0px;
+    margin: 8px;
+    color: #ceddda;
+    border-radius: 4px;
+}
+::placeholder{
+    font-family: Montserrat;
+    color: #092e26;
+}
+input:focus{
+    background-color:#47a792;
+    outline: none;
+}
+button {
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color:#176e5b;
+    padding: 8px;
+    border: 0px;
+    color: #ceddda;
+    border-radius: 4px;
+}
+button:active{
+    background-color:#245248;
+    outline: none;
+}
+#audioSwitch {
+    margin: 20px;
+}

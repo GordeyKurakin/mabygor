@@ -1,0 +1,14 @@
+{
+  "name": "mabygor",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "A small multimedia aggregator capable of downloading video and audio from a website",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.15.8",
+    "fluent-ffmpeg": "^2.1.3",
+    "ytdl-core": "^4.11.5"
+  }
+}
