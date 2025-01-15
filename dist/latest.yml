@@ -1,8 +1,8 @@
 version: 1.0.0
 files:
   - url: mabygor-Setup-1.0.0.exe
-    sha512: rspJifD9JggaUFt6jl1d43m2A2IKAaC3vWrm7QUoIPeYgy8kXu4BHU4ZTnmtL4rNTC2/0u+ABq+G/3phHg4IeA==
-    size: 105525667
+    sha512: rY7nYRXmGkmxqNy1n4iIt65SFPfKiZHtBt1heZ5Dw0j+PISCagceZaV1yX+pYM9lk4fESgSdaFldxGwmQuN6qg==
+    size: 217664967
 path: mabygor-Setup-1.0.0.exe
-sha512: rspJifD9JggaUFt6jl1d43m2A2IKAaC3vWrm7QUoIPeYgy8kXu4BHU4ZTnmtL4rNTC2/0u+ABq+G/3phHg4IeA==
-releaseDate: '2025-01-05T21:27:22.235Z'
+sha512: rY7nYRXmGkmxqNy1n4iIt65SFPfKiZHtBt1heZ5Dw0j+PISCagceZaV1yX+pYM9lk4fESgSdaFldxGwmQuN6qg==
+releaseDate: '2025-01-15T22:49:05.472Z'

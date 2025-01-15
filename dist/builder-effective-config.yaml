@@ -13,4 +13,4 @@ mac:
 win:
   target: nsis
 files: []
-electronVersion: 33.2.1
+electronVersion: 33.3.1

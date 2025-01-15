@@ -6,7 +6,12 @@ const fs = require('fs');
 const ytdl = require('@distube/ytdl-core')
 const url = require('url');
 const ffmpeg = require('fluent-ffmpeg');
+const ffmpegPath = require('ffmpeg-static');
+const ffprobePath = require('ffprobe-static').path;
 let window;
+
+ffmpeg.setFfmpegPath(ffmpegPath);
+ffmpeg.setFfprobePath(ffprobePath);
 
 app.on('ready', () => {
     let settingsPath = path.join(__dirname, "userSettings", "userSettings.json");
